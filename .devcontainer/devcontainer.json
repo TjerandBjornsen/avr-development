@@ -1,0 +1,10 @@
+{
+    "image": "tjerandbjornsen/avr-toolchain:latest",
+
+    "runArgs": ["--device=/dev/ttyACM0"],
+
+    "extensions": [
+        "ms-vscode.cpptools",
+        "cschlosser.doxdocgen"
+    ]
+}
