@@ -6,5 +6,12 @@
     "extensions": [
         "ms-vscode.cpptools",
         "cschlosser.doxdocgen"
-    ]
+    ],
+
+    "settings": {
+        "C_Cpp.default.includePath": [
+            "${workspaceFolder}/**",
+            "/usr/lib/avr/include"
+        ]
+    }
 }
